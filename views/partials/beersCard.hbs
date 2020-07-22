@@ -1,0 +1,10 @@
+{{!-- Podemos usar eso porque en app.js hemos creado una ruta --}}
+<div class="card" style="width: 33.333%;">
+    {{!-- <a href="/beers/{{this.id}}"> --}}
+    <img class="card-img-top" width="35%" src="{{this.image_url}}" alt="">
+    <div class="card-body">
+        <h5 class="card-title">{{this.name}} {{this.description}}</h5>
+        <p class="card-text">{{this.tagline}}</p>
+    </div>
+    {{!-- </a> --}}
+</div>

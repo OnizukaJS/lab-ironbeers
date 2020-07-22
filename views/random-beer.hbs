@@ -1,0 +1,8 @@
+<div class="beers-container">
+    {{#each beers}}
+    {{!-- Llamar al partials beersCards --}}
+    {{> beersCard this}}
+    <p>{{this.food_pairing}}</p>
+    <p>{{this.brewers_tips}}</p>
+    {{/each}}
+</div>
